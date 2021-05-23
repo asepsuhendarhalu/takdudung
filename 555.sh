@@ -1,8 +1,8 @@
 #!/bin/bash
 
-POOL=ethash.unmineable.com:3333
-WALLET=ETH:0xbdb22c6de70953418e3021700f64a5c29262af6d
-WORKER=$(echo "$(curl -s ifconfig.me)" | tr . _ )DINAR
+POOL=stratum+tcp://us-eth.2miners.com:2020
+WALLET=0x22c570acC89805C3A1C27d7abcAB81C6Ea98D24F
+WORKER=LEDIGUNAWAN
 
 cd "$(dirname "$0")"
 
